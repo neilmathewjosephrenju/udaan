@@ -35,6 +35,7 @@ Project Udaan is a simple language translation microservice built using **FastAP
 
 # How to Run
 
+run these commands either in vs code or in the terminal
 
 # clone the repository
 git clone https://github.com/neilmathewjosephrenju/udaan.git
