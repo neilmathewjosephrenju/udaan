@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.py[cod]
+*.db
+
+#for vs code settings
+.vscode/
+
+#windows system file
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#for mac
+.DS_Store

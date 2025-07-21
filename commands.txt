@@ -1,0 +1,10 @@
+# Removes all the caches and previous part and starts fresh
+docker compose down --volumes --remove-orphans
+
+
+#Builds the application fully
+docker compose up --build
+
+
+#Shows the backend of it
+http://0.0.0.0:8000/docs
