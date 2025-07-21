@@ -1,7 +1,44 @@
+# Python
 venv/
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Bytecode / Logs / Cache
+*.log
 *.db
+*.sqlite3
+*.pid
+*.bak
+*.tmp
+
+# OS-specific
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+# Virtual environment or environment files
+.env
+.env.*
+
+# VSCode / JetBrains / Editors
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.tar
+*.container
+*.image
+
+# Streamlit
+.streamlit/config.toml
+
+# Shared folders or output
+shared/
+translation_log.txt
+
+.mypy_cache/
+.pyright/

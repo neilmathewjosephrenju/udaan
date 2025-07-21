@@ -7,4 +7,8 @@ docker compose up --build
 
 
 #Shows the backend of it
-http://0.0.0.0:8000/docs
+http://localhost:8000
+http://localhost:8000/docs
+
+#If it uses too much of the docker STORAGE run it using this command
+docker volume prune

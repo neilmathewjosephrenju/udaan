@@ -1,15 +1,42 @@
+# Python
 venv/
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Bytecode / Logs / Cache
+*.log
 *.db
+*.sqlite3
+*.pid
+*.bak
+*.tmp
 
-#for vs code settings
-.vscode/
-
-#windows system file
+# OS-specific
+.DS_Store
 Thumbs.db
 ehthumbs.db
-Desktop.ini
 
-#for mac
-.DS_Store
+# Virtual environment or environment files
+.env
+.env.*
+
+# VSCode / JetBrains / Editors
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.tar
+*.container
+*.image
+
+.streamlit/config.toml
+
+# Shared folders or output
+shared/
+translation_log.txt
+.mypy_cache/
+.pyright/

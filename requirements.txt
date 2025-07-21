@@ -5,3 +5,4 @@ uvicorn
 pydantic
 deep-translator
 langdetect
+matplotlib
