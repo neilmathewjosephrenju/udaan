@@ -46,3 +46,19 @@ cd udaan
 
 # 2. Build and run the project
 docker compose up --build
+
+# Running without Docker method
+git clone https://github.com/neilmathewjosephrenju/udaan.git
+cd udaan
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+pip install -r requirements.txt
+
+cd backend
+uvicorn main:app --reload
+
+cd frontend
+streamlit run app.py
+
